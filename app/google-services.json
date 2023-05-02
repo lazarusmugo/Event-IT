@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "179682000846",
+    "firebase_url": "https://event-it-6c16f-default-rtdb.firebaseio.com",
+    "project_id": "event-it-6c16f",
+    "storage_bucket": "event-it-6c16f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179682000846:android:f78870d2f5d57f2019f59f",
+        "android_client_info": {
+          "package_name": "com.example.EventIt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179682000846-p2fifn07gjhj7mrspfjnp36qrmisvou6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeaamOVZHDREuAvCyecYUysJP9ohppO_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179682000846-p2fifn07gjhj7mrspfjnp36qrmisvou6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

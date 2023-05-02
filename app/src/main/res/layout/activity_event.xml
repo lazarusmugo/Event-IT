@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bc"
+    android:textColorHint="#FF018786"
+    tools:context=".EventActivity">
+
+    <!--  <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/maps"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="159dp"
+        android:layout_height="267dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvFileName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent" /> -->
+
+
+    <Button
+        android:id="@+id/btnChooseImage"
+        android:layout_width="126dp"
+        android:layout_height="41dp"
+        android:text="@string/choose_file"
+        app:flow_horizontalAlign="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.859"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.113" />
+
+    <EditText
+        android:id="@+id/edtEventDescription"
+        android:layout_width="300dp"
+        android:layout_height="125dp"
+
+        android:autofillHints="@string/enter_event_description"
+
+        android:background="@drawable/textview_border"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/enter_event_description"
+        android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:textColor="#000000"
+        android:textColorHint="#2C2C2C"
+        app:flow_horizontalAlign="center"
+
+        app:layout_constraintBottom_toTopOf="@+id/btnLocation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.639"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.952" />
+
+    <EditText
+        android:id="@+id/tvFileName"
+        android:layout_width="300dp"
+        android:layout_height="44dp"
+        android:background="@drawable/textview_border"
+        android:hint="@string/enter_file_name"
+        android:padding="5dp"
+        android:textColor="#000000"
+        android:textColorHint="#2C2C2C"
+        app:flow_horizontalAlign="center"
+        app:layout_constraintBottom_toTopOf="@+id/spnCategory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.639"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="146dp"
+        android:layout_height="68dp"
+
+        android:text="@string/upload_event"
+        app:flow_horizontalAlign="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.844" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="175dp"
+        android:layout_height="163dp"
+
+        android:layout_marginTop="16dp"
+        android:background="@drawable/textview_border"
+
+        android:contentDescription="Click choose to pick an image"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        app:flow_horizontalAlign="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spnCategory"
+        android:layout_width="300dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="8dp"
+
+
+        android:background="@drawable/textview_border"
+
+        android:padding="5dp"
+
+        android:popupBackground="@color/teal_700"
+        android:spinnerMode="dropdown"
+        android:textColor="#000000"
+        android:textColorHint="#2C2C2C"
+        app:flow_horizontalAlign="center"
+        app:layout_constraintBottom_toTopOf="@+id/edtEventDescription"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.639"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.961" />
+
+    <Button
+        android:id="@+id/btnLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Location"
+        app:layout_constraintBottom_toTopOf="@+id/btnUpload"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.953" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

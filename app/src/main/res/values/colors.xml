@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="grey">#373737</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_Burgandy">#FF9696</color>
+    <color name="clear">#00FF9696</color>
+
+
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#702B71</color>
+    <color name="colrPrimaDark">#702B71</color>
+    <color name="colorAccent">#7C4C7C</color>
+    <color name="colorAppyello">#d6cf7c</color>
+    <color name="colorccent">#000000</color>
+    <color name="editTextBackground">#DADADA</color>
+    <color name="appcolor">#7C4C7C</color>
+
+    <color name="whitegrey">#80E1E1E1</color>
+
+
+    <color name="greybtn">#60EBE8EB</color>
+    <color name="transparent">#00000000</color>
+    <color name="yelloish">#10FAF18B</color>
+    <color name="textColor">#6e6e6e</color>
+
+    <color name="green"> #146e1d </color>
+    <color name="gray">#C8CEC9</color>
+    <color name="line_gray">#A1A3A2</color>
+
+    <color name="colorAccentpattwo">#10702B71</color>
+    <color name="greybtnappbutton">  #99000000 </color>
+
+    <color name="gray_draw">#999F9F9F</color>
+
+
+    <color name="bg_mainactivity">#d4e6e3</color>
+    <!-- Screens background color-->
+    <color name="bg_screen1">#702B71</color>
+    <color name="bg_screen2">#d6cf7c</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#FAF18B</color>
+    <color name="dot_dark_screen2">#702B71</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#FAF18B</color>
+    <color name="dot_light_screen2">#702B71</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+    </array>
+</resources>

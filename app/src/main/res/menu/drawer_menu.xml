@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+<group android:checkableBehavior="single">
+    <item android:id="@+id/profile"
+        android:icon="@drawable/ic_profile"
+        android:title="Profile" />
+    <item android:id="@+id/new_account"
+        android:icon="@drawable/ic_new_account"
+        android:title="Create new account" />
+    <item android:id="@+id/login"
+        android:icon="@drawable/ic_login"
+        android:title="Login to another account" />
+    <item android:id="@+id/add_event"
+        android:icon="@drawable/ic_add_event"
+        android:title="Post an event" />
+
+
+
+
+</group>
+<item android:title="Tools">
+    <menu>
+        <item android:id="@+id/settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+
+    </menu>
+</item>
+
+</menu>

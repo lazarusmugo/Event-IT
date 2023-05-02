@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">LoginApplication</string>
+    <string name="email">email</string>
+    <string name="username">UserName</string>
+    <string name="full_name">Full Name</string>
+    <string name="Password">Password</string>
+    <string name="Sign_Up">Sign Up</string>
+    <string name="title_activity_example">example</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="Register">Register</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="interestfragment">InterestFragment</string>
+    <string name="interestFragment">interestFragment</string>
+    <string name="searchfragment">searchFragment</string>
+    <string name="searchFragment">searchFragment</string>
+    <string name="title_activity_event">EventActivity</string>
+    <string name="choose_file">Choose file</string>
+    <string name="enter_event_description">Enter Event Description</string>
+    <string name="upload_event">UPLOAD EVENT</string>
+    <string name="enter_file_name">Enter file name</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="upload_image">upload Image</string>
+
+
+    <!--
+        <string name="DropDown">EventsCategories</string>
+        <string-array name="Categories">
+            <item>Politics</item>
+            <item>Education</item>
+            <item>Health</item>
+            <item>Environment</item>
+            <item>Entertainment</item>
+            <item>Fashion</item>
+            <item>Sports</item>
+            <item>Technology</item>
+        </string-array>-->
+</resources>
